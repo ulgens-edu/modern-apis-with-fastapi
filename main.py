@@ -24,7 +24,7 @@ def calculate(x: int, y: int, z: Optional[int] = None):
     result = result / z if z else result
 
     return {
-        "body": {
+        "query": {
             "x": x,
             "y": y,
             "z": z,
