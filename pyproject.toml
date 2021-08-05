@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "modern-apis-with-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Ülgen Sarıkavak <ulgensrkvk@gmail.com>"]
+license = "LGPL-2.1 License"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.68.0"
+uvicorn = "0.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
